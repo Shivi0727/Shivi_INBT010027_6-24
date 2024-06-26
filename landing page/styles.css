@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.section {
+    padding: 100px 20px;
+    text-align: center;
+    min-height: 100vh;
+}
+
+#home {
+    background: url('home-bg.jpg') no-repeat center center/cover;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#home img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    object-fit: cover;
+}
+
+#bio {
+    background-color: #f4f4f4;
+}
+
+#bio img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    object-fit: cover;
+}
+
+#benefits {
+    background-color: #fff;
+}
+
+#benefits img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    object-fit: cover;
+}
+
+#testimonials {
+    background-color: #f4f4f4;
+}
+
+#testimonials img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    object-fit: cover;
+}
+
+#contact {
+    background-color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+form {
+    margin-top: 20px;
+}
+input[type="name"] {
+    padding: 10px;
+    width: 300px;
+    max-width: 80%;
+    margin-right: 10px;
+}
+
+input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    max-width: 80%;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    input[type="name"] {
+        width: 80%;
+        margin: 10px 0
+    }
+
+    input[type="email"] {
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    button {
+        width: 80%;
+    }
+}
